@@ -18,9 +18,9 @@ class EmployeeTest {
 
 	@BeforeEach
 	void setUp() {
-		employee = new Employee(1234, "Shubham Srivastava", 50000, 1000);
-		salesmanager = new SalesManager(1234, "Shubham Srivastava", 50000, 1000);
-		president = new President(1234, "Shubham Srivastava", 50000, 1000);
+		employee = new Employee(1234, "NikhilRayapati", 50000, 1000);
+		salesmanager = new SalesManager(1234, "NikhilRayapati", 50000, 1000);
+		president = new President(1234, "NikhilRayapati", 50000, 1000);
 		president.setKilometresTravelled(2000);
 	}
 
